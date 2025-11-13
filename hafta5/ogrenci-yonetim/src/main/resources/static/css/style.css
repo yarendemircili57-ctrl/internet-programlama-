@@ -1,0 +1,42 @@
+body {
+    background: linear-gradient(160deg, #e0f7fa, #ffffff); /* Daha yumuşak bir açısal geçiş */
+    font-family: 'Inter', Arial, sans-serif;
+    color: #333; /* Yazıyı biraz daha okunaklı yapar */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05); /* Hafif gölge ekledik */
+    border-radius: 8px; /* Köşeleri yuvarlattık */
+    overflow: hidden;
+}
+
+.table th, .table td {
+    vertical-align: middle;
+    padding: 12px 15px;
+    text-align: left;
+}
+
+.table th {
+    background-color: #e9f7ff; /* Başlıklar için hafif renk */
+    font-weight: 600;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f9f9f9; /* Alternatif satırlara hafif renk */
+}
+
+.table tr:hover {
+    background-color: #d0f0ff; /* Üzerine gelince renk değişimi */
+    transition: background-color 0.3s;
+}
